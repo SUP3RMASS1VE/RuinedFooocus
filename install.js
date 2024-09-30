@@ -73,12 +73,6 @@ module.exports = {
         ]
       }
     },
-    {
-      method: "fs.link",
-      params: {
-        venv: "app/env"
-      }
-    },
   ]
 }
 
