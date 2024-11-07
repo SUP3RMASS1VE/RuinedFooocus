@@ -55,7 +55,7 @@ module.exports = {
           "loras": "app/models/loras",
           "upscale_models": "app/models/upscale_models",
           "vae": "app/models/vae",
-          "vae_approx": "app/models/VAE-approx",
+          "vae_approx": "app/models/vae_approx",
           "diffusers": "app/models/diffusers",
           "unet": "app/models/unet",
           "vae_approx": "app/models/vae_approx",
