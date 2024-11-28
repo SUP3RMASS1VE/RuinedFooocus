@@ -73,6 +73,12 @@ module.exports = {
           "https://github.com/pinokiofactory/stable-diffusion-webui-forge.git"
         ]
       }
-    }
+    },
+    {
+      method: "fs.link",
+      params: {
+        venv: "app/env"
+      }
+    },
   ]
-}
+};
