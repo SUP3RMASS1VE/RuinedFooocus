@@ -28,8 +28,8 @@ module.exports = {
         venv: "env",                // Edit this to customize the venv folder path
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
-          "pip install gradio",
           "pip install -r requirements_versions.txt",
+          "pip install -r pip_modules.txt"
         ]
       }
     },
@@ -72,6 +72,12 @@ module.exports = {
           "https://github.com/cocktailpeanutlabs/comfyui.git",
           "https://github.com/pinokiofactory/stable-diffusion-webui-forge.git"
         ]
+      }
+    },
+    {
+      method: "fs.link",
+      params: {
+        venv: "app/env"
       }
     },
   ]
