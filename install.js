@@ -29,7 +29,6 @@ module.exports = {
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
           "pip install -r requirements_versions.txt",
-          "pip install -r pip_modules.txt"
         ]
       }
     },
